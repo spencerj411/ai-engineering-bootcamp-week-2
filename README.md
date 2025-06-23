@@ -1,10 +1,11 @@
-# RAG Next.js TypeScript Application
+# AI Agent Next.js TypeScript Application
 
-A modern **Retrieval-Augmented Generation (RAG)** chat application built with Next.js, TypeScript, and powered by OpenAI's GPT models with vector-based document retrieval using Vectorize.io.
+A modern **Agent** chat application with **Retrieval-Augmented Generation (RAG)** built with Next.js, TypeScript, AI SDK and powered by OpenAI's GPT models with vector-based document retrieval using Vectorize.io.
 
 ## 🚀 Features
 
 - **AI-Powered Chat**: Interactive chat interface with GPT-4o-mini
+- **Agentic**: LLM that leverages tools using chain-of-thought reasoning/iterative reasoning loop
 - **Document Retrieval**: RAG system that retrieves relevant context from vectorized documents
 - **Real-time Sources**: View document sources that inform AI responses
 - **Modern UI**: Clean, responsive interface built with Tailwind CSS
@@ -139,7 +140,7 @@ VECTORIZE_PIPELINE_ID=aip0c318-344a-4721-a9e7-5526c96d9b49
 
 ### Chat Interface
 
-- Navigate to `/vectorize` for the main chat interface
+- Navigate to `/` for the main chat interface
 - Type questions related to your vectorized documents
 - View source documents that informed each AI response
 - Enjoy real-time loading animations and smooth interactions
